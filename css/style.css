@@ -1,0 +1,99 @@
+.primary-header {
+    background-color: white;
+}
+
+.header-container {
+    margin: 0px 10px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: ;
+}
+
+/* logo container */
+
+.logo {
+
+    height: 100px;
+    width: 100px;
+    /* padding: 4rem 5rem; */
+    background-image: url(../public/westernweatherlogo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: var(--clr-accent); */
+}
+
+.westernweather {
+    font-size: var(--fs-600);
+    font-weight: var(--fw-bold);
+    border-right: solid 2px var(--clr-primary);
+    padding-right: 20px;
+}
+
+.westernweather:hover {
+    font-weight: var(--fw-bold);
+}
+
+/* navigation container */
+
+.primary-navigation {
+    padding: 2rem;
+    /* background-color: var(--clr-primary); */
+    font-family: var(--ff-primary);
+    flex-grow: 1;
+
+}
+
+.nav-list {
+    display: flex;
+    gap: 2rem;
+    cursor: pointer;
+    justify-content: flex-start;
+
+}
+
+li {
+    color: var(--clr-primary);
+    font-size: var(--fs-600);
+    font-weight: var(--fw-regular);
+}
+
+li:hover {
+    color: var(--clr-accent);
+    font-weight: var(--fw-regular);
+}
+
+.snapshot {
+    padding: 1.8rem 3rem;
+}
+
+.even-columns {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top:11%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 40%;
+    grid-template-columns: 33% 33% 33%;
+    gap: 2em;
+    /* gap: 2rem; */
+}
+
+body {
+    background-image: url(../public/perth.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: var(--clr-neutral);
+}
+
+footer {
+    display: flex;
+    flex:auto;
+    background-color: white;
+    color: var(--clr-primary);
+    font-family: var(--ff-primary);
+    justify-content: center;
+}
